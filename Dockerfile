@@ -25,3 +25,5 @@ RUN \
     /build \
     ~/.cache/pip \
     /usr/bin/qemu-arm-static
+
+CMD ["mlat-client"]
